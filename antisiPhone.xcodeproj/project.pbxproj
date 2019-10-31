@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EE47EAE4236A822B0027C78E /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE47EAE3236A822B0027C78E /* InfoView.swift */; };
+		EE47EAE6236A84B00027C78E /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE47EAE5236A84B00027C78E /* MainView.swift */; };
 		EECB848D2361391C00D3BFE9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EECB848C2361391C00D3BFE9 /* AppDelegate.swift */; };
 		EECB848F2361391C00D3BFE9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EECB848E2361391C00D3BFE9 /* SceneDelegate.swift */; };
 		EECB84912361391C00D3BFE9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EECB84902361391C00D3BFE9 /* ContentView.swift */; };
@@ -35,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EE47EAE3236A822B0027C78E /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		EE47EAE5236A84B00027C78E /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		EECB84892361391C00D3BFE9 /* antisiPhone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = antisiPhone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EECB848C2361391C00D3BFE9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EECB848E2361391C00D3BFE9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -106,6 +110,8 @@
 				EECB84972361391D00D3BFE9 /* LaunchScreen.storyboard */,
 				EECB849A2361391D00D3BFE9 /* Info.plist */,
 				EECB84942361391D00D3BFE9 /* Preview Content */,
+				EE47EAE3236A822B0027C78E /* InfoView.swift */,
+				EE47EAE5236A84B00027C78E /* MainView.swift */,
 			);
 			path = antisiPhone;
 			sourceTree = "<group>";
@@ -267,8 +273,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE47EAE4236A822B0027C78E /* InfoView.swift in Sources */,
 				EECB848D2361391C00D3BFE9 /* AppDelegate.swift in Sources */,
 				EECB848F2361391C00D3BFE9 /* SceneDelegate.swift in Sources */,
+				EE47EAE6236A84B00027C78E /* MainView.swift in Sources */,
 				EECB84912361391C00D3BFE9 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
