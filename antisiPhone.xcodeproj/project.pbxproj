@@ -11,6 +11,7 @@
 		EE47EAE6236A84B00027C78E /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE47EAE5236A84B00027C78E /* MainView.swift */; };
 		EE5D1C2C236DE5D30068A836 /* sleep.png in Resources */ = {isa = PBXBuildFile; fileRef = EE5D1C2B236DE5D30068A836 /* sleep.png */; };
 		EE5D1C2E236DEA380068A836 /* NewsBoxIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5D1C2D236DEA380068A836 /* NewsBoxIView.swift */; };
+		EE5D1C30236E75D20068A836 /* HostingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5D1C2F236E75D20068A836 /* HostingController.swift */; };
 		EECB848D2361391C00D3BFE9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EECB848C2361391C00D3BFE9 /* AppDelegate.swift */; };
 		EECB848F2361391C00D3BFE9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EECB848E2361391C00D3BFE9 /* SceneDelegate.swift */; };
 		EECB84912361391C00D3BFE9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EECB84902361391C00D3BFE9 /* ContentView.swift */; };
@@ -43,6 +44,7 @@
 		EE47EAE5236A84B00027C78E /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		EE5D1C2B236DE5D30068A836 /* sleep.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sleep.png; path = ../../../Downloads/sleep.png; sourceTree = "<group>"; };
 		EE5D1C2D236DEA380068A836 /* NewsBoxIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsBoxIView.swift; sourceTree = "<group>"; };
+		EE5D1C2F236E75D20068A836 /* HostingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostingController.swift; sourceTree = "<group>"; };
 		EECB84892361391C00D3BFE9 /* antisiPhone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = antisiPhone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EECB848C2361391C00D3BFE9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EECB848E2361391C00D3BFE9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -118,6 +120,7 @@
 				EE47EAE3236A822B0027C78E /* InfoView.swift */,
 				EE47EAE5236A84B00027C78E /* MainView.swift */,
 				EE5D1C2D236DEA380068A836 /* NewsBoxIView.swift */,
+				EE5D1C2F236E75D20068A836 /* HostingController.swift */,
 			);
 			path = antisiPhone;
 			sourceTree = "<group>";
@@ -284,6 +287,7 @@
 				EE5D1C2E236DEA380068A836 /* NewsBoxIView.swift in Sources */,
 				EECB848D2361391C00D3BFE9 /* AppDelegate.swift in Sources */,
 				EECB848F2361391C00D3BFE9 /* SceneDelegate.swift in Sources */,
+				EE5D1C30236E75D20068A836 /* HostingController.swift in Sources */,
 				EE47EAE6236A84B00027C78E /* MainView.swift in Sources */,
 				EECB84912361391C00D3BFE9 /* ContentView.swift in Sources */,
 			);

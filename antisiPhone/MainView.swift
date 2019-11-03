@@ -44,24 +44,25 @@ struct MainView: View {
     var NewsList: [News] = getNews()
 
     init() {
-        let aColor = UIColor(named: "customControlColor")
-        UINavigationBar.appearance().backgroundColor = aColor
+        //let aColor = UIColor(named: "customControlColor")
+        //UINavigationBar.appearance().backgroundColor = aColor
         
     }
     
     var body: some View {
         NavigationView {
-            Form {
+            ScrollView {
                 
-                List(NewsList){
+                ForEach(NewsList){
                     news in
-                    
-                        NewsBoxIView(newsInit: news)
-                    
+                    NewsBoxIView(newsInit: news)
                 }
+
                 .listRowBackground(Color(UIColor(named: "customControlColor") ?? .white))
+            .padding()
             }
  .navigationBarTitle(Text("Antis Connect"))
+        .statusBar(hidden: true)
         }
             
     }

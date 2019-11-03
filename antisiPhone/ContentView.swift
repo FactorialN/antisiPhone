@@ -10,8 +10,9 @@ import SwiftUI
 
 
 struct ContentView: View {
+    
     init() {
-        
+
     }
     
     var body: some View {
@@ -32,6 +33,7 @@ struct ContentView: View {
                 Text("我的")
             }.tag(2)
         }
+        .edgesIgnoringSafeArea(.top)
     }
 }
 
