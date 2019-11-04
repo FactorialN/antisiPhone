@@ -14,6 +14,8 @@ struct News: Identifiable {
     var author: String
     var short: String
     var content: String
+    var display: String
+    var isShort: Bool
 }
 
 func getNews() -> [News] {
@@ -21,50 +23,63 @@ func getNews() -> [News] {
         ["id":"0",
          "title":"我们走在大路上",
          "author":"习近平",
-         "short":"为了简单起见，预定义了...",
+         "short":"每一条新闻资讯包含标题...",
          "content":"每一条新闻资讯包含标题、作者、发布日期、详细内容、图片等信息。创建一个 swift 文件，命名为 News.swift。在该文件内创建一个新闻模型 News："
         ],
         ["id":"1",
          "title":"我们走在大路上",
          "author":"习近平",
-         "short":"为了简单起见，预定义了...",
-         "content":"每一条新闻资讯包含标题、作者、发布日期、详细内容、图片等信息。创建一个 swift 文件，命名为 News.swift。在该文件内创建一个新闻模型 News："
+         "short":"每一条新闻资讯包含标题...",
+         "content":"每一条新闻资讯包含标题、作者、发布日期、详细内容、图片等信息。创建一个 swift 文件，命名为 News.swift。在该文件内创建一个新闻模型 News：每一条新闻资讯包含标题、作者、发布日期、详细内容、图片等信息。创建一个 swift 文件，命名为 News.swift。在该文件内创建一个新闻模型 News每一条新闻资讯包含标题、作者、发布日期、详细内容、图片等信息。创建一个 swift 文件，命名为 News.swift。在该文件内创建一个新闻模型 News"
+        ],
+        ["id":"2",
+         "title":"我们走在大路上",
+         "author":"习近平",
+         "short":"每一条新闻资讯包含标题...",
+         "content":"每一条新闻资讯包含标题、作者、发布日期、详细内容、图片等信息。创建一个 swift 文件，命名为 News.swift。每一条新闻资讯包含标题、作者、发布日期、详细内容、图片等信息。创建一个 swift 文件，命名为 News.swift。在该文件内创建一个新闻模型 News"
         ]
     ]
     
     var newslist: [News] = []
     for newsDict in newsDicts {
-        let news = News(id: newsDict["id"]!, title: newsDict["title"]!, author: newsDict["author"]!, short: newsDict["short"]!, content: newsDict["content"]!)
+        let news = News(id: newsDict["id"]!, title: newsDict["title"]!, author: newsDict["author"]!, short: newsDict["short"]!, content: newsDict["content"]!,
+                        display: newsDict["short"]!, isShort: true)
         newslist.append(news)
         
     }
     return newslist
 }
 struct MainView: View {
-    var NewsList: [News] = getNews()
+    @State private var NewsList: [News] = getNews()
 
     init() {
         //let aColor = UIColor(named: "customControlColor")
         //UINavigationBar.appearance().backgroundColor = aColor
-        
+         
     }
     
     var body: some View {
         NavigationView {
-            ScrollView {
+            ScrollView() {
                 
                 ForEach(NewsList){
                     news in
                     NewsBoxIView(newsInit: news)
+                        
                 }
 
                 .listRowBackground(Color(UIColor(named: "customControlColor") ?? .white))
-            .padding()
-            }
+            .frame(minWidth: 0, maxWidth: .infinity, minHeight: 0, maxHeight: .infinity, alignment: Alignment.topLeading)
+
+                }.layoutPriority(0)
+                
+        
+
+                
  .navigationBarTitle(Text("Antis Connect"))
         .statusBar(hidden: true)
         }
-            
+         //.animation(.default)
     }
 }
 

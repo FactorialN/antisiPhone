@@ -20,12 +20,12 @@ struct ContentView: View {
             MainView()
                 .tabItem {
                     Image(systemName: "1.circle")
-                    Text("First")
+                    Text("发现")
                 }.tag(0)
             Text("History View")
                 .tabItem {
                     Image(systemName: "2.circle")
-                    Text("Second")
+                    Text("今天")
                 }.tag(1)
             InfoView()
             .tabItem {
@@ -34,6 +34,7 @@ struct ContentView: View {
             }.tag(2)
         }
         .edgesIgnoringSafeArea(.top)
+        
     }
 }
 
