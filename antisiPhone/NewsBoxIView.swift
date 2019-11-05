@@ -78,8 +78,8 @@ struct NewsBoxIView: View {
                .background(
                 RoundedRectangle(cornerRadius: CGFloat(Radius))
                     .stroke(Color(.sRGB, red: 100/255, green: 150/255, blue: 150/255, opacity: 0.1), lineWidth: 0)
-                .background(
-                    Color(UIColor(named: "customBackgroundColor") ?? .white)
+                    .background((self.state == 0 ?
+                        Color(UIColor(named: "customBackgroundColor") ?? .white) : Color(UIColor(named: "customBackgroundColor") ?? .white))
                         .cornerRadius(CGFloat(Radius))
                         .shadow(radius: CGFloat(Radius))
                 )

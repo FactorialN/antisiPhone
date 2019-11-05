@@ -3,13 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		EE47EAE4236A822B0027C78E /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE47EAE3236A822B0027C78E /* InfoView.swift */; };
 		EE47EAE6236A84B00027C78E /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE47EAE5236A84B00027C78E /* MainView.swift */; };
-		EE5D1C2C236DE5D30068A836 /* sleep.png in Resources */ = {isa = PBXBuildFile; fileRef = EE5D1C2B236DE5D30068A836 /* sleep.png */; };
 		EE5D1C2E236DEA380068A836 /* NewsBoxIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5D1C2D236DEA380068A836 /* NewsBoxIView.swift */; };
 		EE5D1C30236E75D20068A836 /* HostingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5D1C2F236E75D20068A836 /* HostingController.swift */; };
 		EE5D1C32236EE2130068A836 /* AnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5D1C31236EE2130068A836 /* AnimationView.swift */; };
@@ -21,6 +20,7 @@
 		EECB84992361391D00D3BFE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EECB84972361391D00D3BFE9 /* LaunchScreen.storyboard */; };
 		EECB84A42361391D00D3BFE9 /* antisiPhoneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EECB84A32361391D00D3BFE9 /* antisiPhoneTests.swift */; };
 		EECB84AF2361391D00D3BFE9 /* antisiPhoneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EECB84AE2361391D00D3BFE9 /* antisiPhoneUITests.swift */; };
+		EEE47DD92371AAF7007E86E5 /* ModalView in Frameworks */ = {isa = PBXBuildFile; productRef = EEE47DD82371AAF7007E86E5 /* ModalView */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,7 +43,6 @@
 /* Begin PBXFileReference section */
 		EE47EAE3236A822B0027C78E /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 		EE47EAE5236A84B00027C78E /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
-		EE5D1C2B236DE5D30068A836 /* sleep.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sleep.png; path = ../../../Downloads/sleep.png; sourceTree = "<group>"; };
 		EE5D1C2D236DEA380068A836 /* NewsBoxIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsBoxIView.swift; sourceTree = "<group>"; };
 		EE5D1C2F236E75D20068A836 /* HostingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostingController.swift; sourceTree = "<group>"; };
 		EE5D1C31236EE2130068A836 /* AnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationView.swift; sourceTree = "<group>"; };
@@ -68,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EEE47DD92371AAF7007E86E5 /* ModalView in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -117,7 +117,6 @@
 				EECB84922361391D00D3BFE9 /* Assets.xcassets */,
 				EECB84972361391D00D3BFE9 /* LaunchScreen.storyboard */,
 				EECB849A2361391D00D3BFE9 /* Info.plist */,
-				EE5D1C2B236DE5D30068A836 /* sleep.png */,
 				EECB84942361391D00D3BFE9 /* Preview Content */,
 				EE47EAE3236A822B0027C78E /* InfoView.swift */,
 				EE47EAE5236A84B00027C78E /* MainView.swift */,
@@ -170,6 +169,9 @@
 			dependencies = (
 			);
 			name = antisiPhone;
+			packageProductDependencies = (
+				EEE47DD82371AAF7007E86E5 /* ModalView */,
+			);
 			productName = antisiPhone;
 			productReference = EECB84892361391C00D3BFE9 /* antisiPhone.app */;
 			productType = "com.apple.product-type.application";
@@ -242,6 +244,9 @@
 				Base,
 			);
 			mainGroup = EECB84802361391B00D3BFE9;
+			packageReferences = (
+				EEE47DD72371AAF7007E86E5 /* XCRemoteSwiftPackageReference "modal-view" */,
+			);
 			productRefGroup = EECB848A2361391C00D3BFE9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -259,7 +264,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				EECB84992361391D00D3BFE9 /* LaunchScreen.storyboard in Resources */,
-				EE5D1C2C236DE5D30068A836 /* sleep.png in Resources */,
 				EECB84962361391D00D3BFE9 /* Preview Assets.xcassets in Resources */,
 				EECB84932361391D00D3BFE9 /* Assets.xcassets in Resources */,
 			);
@@ -618,6 +622,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		EEE47DD72371AAF7007E86E5 /* XCRemoteSwiftPackageReference "modal-view" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/diniska/modal-view";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		EEE47DD82371AAF7007E86E5 /* ModalView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EEE47DD72371AAF7007E86E5 /* XCRemoteSwiftPackageReference "modal-view" */;
+			productName = ModalView;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = EECB84812361391B00D3BFE9 /* Project object */;
 }

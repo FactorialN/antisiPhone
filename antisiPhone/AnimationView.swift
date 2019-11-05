@@ -7,19 +7,16 @@
 //
 
 import SwiftUI
+import ModalView
 
 struct AnimationView: View {
     @State private var opacity = 1.0
 
     var body: some View {
-        Button(action: {
-            withAnimation {
-                self.opacity -= 0.2
+        ModalPresenter {
+            ModalLink(destination: NewsBoxIView(newsInit: News(id: "0", title: "Draw", author: "Paint", short: "Wow", content: "Wowjdsahfjdkslahjfkdhsafhdjkslahfjdlshajlvdblvkbeqjfkb", display: "Wow", isShort: true))) {
+                Text("Hello")
             }
-        }) {
-            Text("Tap here")
-                .padding()
-                .opacity(opacity)
         }
     }
 }

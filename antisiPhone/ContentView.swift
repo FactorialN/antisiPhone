@@ -25,7 +25,7 @@ struct ContentView: View {
             Text("History View")
                 .tabItem {
                     Image(systemName: "2.circle")
-                    Text("今天")
+                    Text("睡觉")
                 }.tag(1)
             InfoView()
             .tabItem {

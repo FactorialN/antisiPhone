@@ -7,6 +7,7 @@
 //
 
 import SwiftUI
+import ModalView
 
 struct News: Identifiable {
     var id: String
@@ -78,7 +79,7 @@ struct MainView: View {
                 
  .navigationBarTitle(Text("Antis Connect"))
         .statusBar(hidden: true)
-        }
+            }
          //.animation(.default)
     }
 }
