@@ -38,7 +38,7 @@ struct NewsBoxIView: View {
         
         VStack {
             
-                   Image("demopic")
+                   Image("demopic2")
                        .resizable()
             .scaledToFit()
                     //.aspectRatio(1, contentMode: .fit)

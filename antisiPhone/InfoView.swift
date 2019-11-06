@@ -14,12 +14,20 @@ struct InfoView: View {
         NavigationView {
             ModalPresenter() {
                 Form {
+                        
+                    
+                    LandmarkDetail(landmark: UserData().landmarks[0])
+                        .environmentObject(UserData())
                     Section(header: Text("账户")) {
+                        
+                            ModalLink(destination: Text("🐢")) {
+                                Text("个人信息")
+                            }
                         ModalLink(destination: Text("🐢")) {
-                            Text("现金账户充值")
+                            Text("现金账户")
                         }
                         ModalLink(destination: Text("🐻")) {
-                            Text("积分账户充值")
+                            Text("积分账户")
                         }
                         ModalLink(destination: Text("🦘")) {
                             Text("仪器使用套餐")
