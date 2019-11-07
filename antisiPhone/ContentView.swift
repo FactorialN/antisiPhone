@@ -22,16 +22,21 @@ struct ContentView: View {
                     Image(systemName: "1.circle")
                     Text("发现")
                 }.tag(0)
-            Text("History View")
+            Text("")
+            .tabItem {
+                Image(systemName: "2.circle")
+                Text("睡觉")
+            }.tag(1)
+            MiddleView()
                 .tabItem {
-                    Image(systemName: "2.circle")
-                    Text("睡觉")
-                }.tag(1)
+                    Image(systemName: "3.circle")
+                    Text("记录")
+                }.tag(2)
             InfoView()
             .tabItem {
-                Image(systemName: "3.circle")
+                Image(systemName: "4.circle")
                 Text("我的")
-            }.tag(2)
+            }.tag(3)
         }
         .edgesIgnoringSafeArea(.top)
         

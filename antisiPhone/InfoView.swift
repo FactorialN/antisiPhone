@@ -13,6 +13,7 @@ struct InfoView: View {
     var body: some View {
         NavigationView {
             ModalPresenter() {
+                
                 Form {
                         
                     
@@ -20,13 +21,18 @@ struct InfoView: View {
                         .environmentObject(UserData())
                     Section(header: Text("账户")) {
                         
-                            ModalLink(destination: Text("🐢")) {
+                            ModalLink(destination: { dismiss in
+                            
+                                InfoDetailView();  Button(action: dismiss) {
+                                    Text("完成")
+                                }
+                            }) {
                                 Text("个人信息")
                             }
-                        ModalLink(destination: Text("🐢")) {
+                        ModalLink(destination: CashView(hike: hikeData[0])) {
                             Text("现金账户")
                         }
-                        ModalLink(destination: Text("🐻")) {
+                        ModalLink(destination: CreditView(hike: hikeData[0])) {
                             Text("积分账户")
                         }
                         ModalLink(destination: Text("🦘")) {
@@ -43,12 +49,12 @@ struct InfoView: View {
                     }
                     
                     Section(header: Text("")) {
-                        ModalLink(destination: Text("🍎")) {
+                        ModalLink(destination: Text("MSFT")) {
                             Text("关于")
                         }
                     }
                 }
-            }.navigationBarTitle("My")
+            }.navigationBarTitle("我的")
         }
     }
 }
