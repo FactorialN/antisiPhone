@@ -86,7 +86,7 @@ struct CashView: View {
                                             .foregroundColor(.white)
                                     }
                                     .sheet(isPresented: $showingSheet) {
-                                        Text("🥑")
+                                        PayView()
                                     }
                                  }
                                  .padding()

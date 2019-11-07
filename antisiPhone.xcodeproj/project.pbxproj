@@ -14,6 +14,10 @@
 		EE5B2EE12373DCF5005715FE /* CashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5B2EE02373DCF5005715FE /* CashView.swift */; };
 		EE5B2EE32373E490005715FE /* SmallBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5B2EE22373E490005715FE /* SmallBoxView.swift */; };
 		EE5B2EE52373EFC0005715FE /* CreditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5B2EE42373EFC0005715FE /* CreditView.swift */; };
+		EE5B2EE72373F56A005715FE /* SleepView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5B2EE62373F56A005715FE /* SleepView.swift */; };
+		EE5B2F1B2373F9A8005715FE /* CircleControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5B2F192373F9A7005715FE /* CircleControl.swift */; };
+		EE5B2F1C2373F9A8005715FE /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5B2F1A2373F9A8005715FE /* Color+Extensions.swift */; };
+		EE5B2F1E2373F9E1005715FE /* PayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5B2F1D2373F9E1005715FE /* PayView.swift */; };
 		EE5D1C2E236DEA380068A836 /* NewsBoxIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5D1C2D236DEA380068A836 /* NewsBoxIView.swift */; };
 		EE5D1C30236E75D20068A836 /* HostingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5D1C2F236E75D20068A836 /* HostingController.swift */; };
 		EE5D1C32236EE2130068A836 /* AnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5D1C31236EE2130068A836 /* AnimationView.swift */; };
@@ -87,6 +91,10 @@
 		EE5B2EE02373DCF5005715FE /* CashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CashView.swift; sourceTree = "<group>"; };
 		EE5B2EE22373E490005715FE /* SmallBoxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallBoxView.swift; sourceTree = "<group>"; };
 		EE5B2EE42373EFC0005715FE /* CreditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditView.swift; sourceTree = "<group>"; };
+		EE5B2EE62373F56A005715FE /* SleepView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepView.swift; sourceTree = "<group>"; };
+		EE5B2F192373F9A7005715FE /* CircleControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleControl.swift; sourceTree = "<group>"; };
+		EE5B2F1A2373F9A8005715FE /* Color+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
+		EE5B2F1D2373F9E1005715FE /* PayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayView.swift; sourceTree = "<group>"; };
 		EE5D1C2D236DEA380068A836 /* NewsBoxIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsBoxIView.swift; sourceTree = "<group>"; };
 		EE5D1C2F236E75D20068A836 /* HostingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostingController.swift; sourceTree = "<group>"; };
 		EE5D1C31236EE2130068A836 /* AnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationView.swift; sourceTree = "<group>"; };
@@ -238,6 +246,7 @@
 		EECB848B2361391C00D3BFE9 /* antisiPhone */ = {
 			isa = PBXGroup;
 			children = (
+				EE5B2EE62373F56A005715FE /* SleepView.swift */,
 				EEC7C87C2373336400129923 /* HexagonParameters.swift */,
 				EEC7C87B2373336400129923 /* HikeDetail.swift */,
 				EEC7C87A2373336400129923 /* LandmarkDetail.swift */,
@@ -261,9 +270,12 @@
 				EE642EF1237342D1008E333A /* HIkeView.swift */,
 				EE642EF323734538008E333A /* InfoDetailView.swift */,
 				EE5B2EDE2373DB8F005715FE /* MiddleView.swift */,
+				EE5B2F192373F9A7005715FE /* CircleControl.swift */,
+				EE5B2F1A2373F9A8005715FE /* Color+Extensions.swift */,
 				EE5B2EE02373DCF5005715FE /* CashView.swift */,
 				EE5B2EE22373E490005715FE /* SmallBoxView.swift */,
 				EE5B2EE42373EFC0005715FE /* CreditView.swift */,
+				EE5B2F1D2373F9E1005715FE /* PayView.swift */,
 			);
 			path = antisiPhone;
 			sourceTree = "<group>";
@@ -460,7 +472,9 @@
 				EE5B2EE12373DCF5005715FE /* CashView.swift in Sources */,
 				EECB848F2361391C00D3BFE9 /* SceneDelegate.swift in Sources */,
 				EEC7C8862373336400129923 /* LandmarkRow.swift in Sources */,
+				EE5B2F1C2373F9A8005715FE /* Color+Extensions.swift in Sources */,
 				EEC7C8892373336400129923 /* UserData.swift in Sources */,
+				EE5B2F1B2373F9A8005715FE /* CircleControl.swift in Sources */,
 				EEC7C8822373336400129923 /* MapView.swift in Sources */,
 				EE642EF2237342D1008E333A /* HIkeView.swift in Sources */,
 				EEC7C87F2373336400129923 /* GraphCapsule.swift in Sources */,
@@ -473,10 +487,12 @@
 				EE5B2EE32373E490005715FE /* SmallBoxView.swift in Sources */,
 				EECB84912361391C00D3BFE9 /* ContentView.swift in Sources */,
 				EEC7C87E2373336400129923 /* LandmarkList.swift in Sources */,
+				EE5B2F1E2373F9E1005715FE /* PayView.swift in Sources */,
 				EEC7C88E2373336400129923 /* HexagonParameters.swift in Sources */,
 				EEC7C8832373336400129923 /* CircleImage.swift in Sources */,
 				EE5B2EDF2373DB8F005715FE /* MiddleView.swift in Sources */,
 				EEC7C8852373336400129923 /* BadgeBackground.swift in Sources */,
+				EE5B2EE72373F56A005715FE /* SleepView.swift in Sources */,
 				EEC7C8872373336400129923 /* Badge.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

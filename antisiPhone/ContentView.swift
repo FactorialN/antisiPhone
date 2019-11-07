@@ -22,7 +22,7 @@ struct ContentView: View {
                     Image(systemName: "1.circle")
                     Text("发现")
                 }.tag(0)
-            Text("")
+            SleepView()
             .tabItem {
                 Image(systemName: "2.circle")
                 Text("睡觉")
