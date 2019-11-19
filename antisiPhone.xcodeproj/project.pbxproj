@@ -23,6 +23,8 @@
 		EE5D1C32236EE2130068A836 /* AnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5D1C31236EE2130068A836 /* AnimationView.swift */; };
 		EE642EF2237342D1008E333A /* HIkeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE642EF1237342D1008E333A /* HIkeView.swift */; };
 		EE642EF423734538008E333A /* InfoDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE642EF323734538008E333A /* InfoDetailView.swift */; };
+		EEA098A12382525700FE4988 /* logo3.png in Resources */ = {isa = PBXBuildFile; fileRef = EEA098A02382525700FE4988 /* logo3.png */; };
+		EEA098A32383875F00FE4988 /* AnimatableCards.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA098A22383875F00FE4988 /* AnimatableCards.swift */; };
 		EEBC4E60237338BD008FF5AA /* chishiki.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EEBC4E5F237338BD008FF5AA /* chishiki.jpg */; };
 		EEC7C87E2373336400129923 /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC7C86A2373336400129923 /* LandmarkList.swift */; };
 		EEC7C87F2373336400129923 /* GraphCapsule.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC7C86C2373336400129923 /* GraphCapsule.swift */; };
@@ -100,6 +102,8 @@
 		EE5D1C31236EE2130068A836 /* AnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationView.swift; sourceTree = "<group>"; };
 		EE642EF1237342D1008E333A /* HIkeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HIkeView.swift; sourceTree = "<group>"; };
 		EE642EF323734538008E333A /* InfoDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoDetailView.swift; sourceTree = "<group>"; };
+		EEA098A02382525700FE4988 /* logo3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo3.png; sourceTree = "<group>"; };
+		EEA098A22383875F00FE4988 /* AnimatableCards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatableCards.swift; sourceTree = "<group>"; };
 		EEBC4E5F237338BD008FF5AA /* chishiki.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = chishiki.jpg; sourceTree = "<group>"; };
 		EEC7C86A2373336400129923 /* LandmarkList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
 		EEC7C86C2373336400129923 /* GraphCapsule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphCapsule.swift; sourceTree = "<group>"; };
@@ -260,11 +264,13 @@
 				EECB84922361391D00D3BFE9 /* Assets.xcassets */,
 				EECB84972361391D00D3BFE9 /* LaunchScreen.storyboard */,
 				EE06AFF92372084D0049C733 /* sleep.png */,
+				EEA098A02382525700FE4988 /* logo3.png */,
 				EECB849A2361391D00D3BFE9 /* Info.plist */,
 				EECB84942361391D00D3BFE9 /* Preview Content */,
 				EE47EAE3236A822B0027C78E /* InfoView.swift */,
 				EE47EAE5236A84B00027C78E /* MainView.swift */,
 				EE5D1C2D236DEA380068A836 /* NewsBoxIView.swift */,
+				EEA098A22383875F00FE4988 /* AnimatableCards.swift */,
 				EE5D1C2F236E75D20068A836 /* HostingController.swift */,
 				EE5D1C31236EE2130068A836 /* AnimationView.swift */,
 				EE642EF1237342D1008E333A /* HIkeView.swift */,
@@ -420,6 +426,7 @@
 				EEC7C89E2373343D00129923 /* charleyrivers.jpg in Resources */,
 				EEC7C8A62373343D00129923 /* umbagog.jpg in Resources */,
 				EECB84992361391D00D3BFE9 /* LaunchScreen.storyboard in Resources */,
+				EEA098A12382525700FE4988 /* logo3.png in Resources */,
 				EEBC4E60237338BD008FF5AA /* chishiki.jpg in Resources */,
 				EEC7C89F2373343D00129923 /* turtlerock.jpg in Resources */,
 				EE06AFFA2372084D0049C733 /* sleep.png in Resources */,
@@ -486,6 +493,7 @@
 				EEC7C8812373336400129923 /* RotatedBadgeSymbol.swift in Sources */,
 				EE5B2EE32373E490005715FE /* SmallBoxView.swift in Sources */,
 				EECB84912361391C00D3BFE9 /* ContentView.swift in Sources */,
+				EEA098A32383875F00FE4988 /* AnimatableCards.swift in Sources */,
 				EEC7C87E2373336400129923 /* LandmarkList.swift in Sources */,
 				EE5B2F1E2373F9E1005715FE /* PayView.swift in Sources */,
 				EEC7C88E2373336400129923 /* HexagonParameters.swift in Sources */,
